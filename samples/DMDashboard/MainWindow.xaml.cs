@@ -47,7 +47,7 @@ namespace DMDashboard
 
         public string DeviceIdToPopulate { get; set; } = DeviceIdHintText;
 
-        Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+        System.Configuration.Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
 
         public MainWindow()
         {

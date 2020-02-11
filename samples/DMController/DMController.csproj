@@ -202,14 +202,20 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Amqp">
+      <Version>2.4.3</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.Azure.Devices">
-      <Version>1.4.1</Version>
+      <Version>1.18.2</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.1</Version>
+      <Version>6.2.9</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>10.0.3</Version>
+      <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="WindowsAzure.Storage">
+      <Version>9.3.3</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
